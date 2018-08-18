@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+/*--IDInformation开始--*/
+.iframeBox{
+    padding: 10px 20px 40px 20px;
+     height: 100%;
+    background-color:  white;
+    overflow: auto;
+}
+.IDInformation{
+    font: 12px Arial, Verdana, "\5b8b\4f53";
+}
+.IDInformation>p{
+    padding: 10px 0 10px 20px;
+}
+.names{
+    font: bold 20px/20px "Microsoft YaHei";
+    padding-right: 10px;
+}
+.IDInformation-table{
+    background-color: #3e85c7;
+    padding: 6px 20px;
+    color: white;
+}
+.IDInformation-table{
+    width: 793px;
+}
+.IDInformation-tr>td:nth-child(1){
+    width: 60px;
+}
+.IDInformation-tr>td:nth-child(3){
+    width: 48px;
+}
+.IDInformation-tr>td:nth-of-type(2n+2){
+   display: inline-block;
+   width: 305px;
+   line-height: 20px;
+}
+/*--IDInformation结束--*/
+/*--jobInformation开始--*/
+.jobInformation{
+    font: 12px Arial, Verdana, "\5b8b\4f53";
+}
+.jobInformation>p{
+    display: inline-block;
+    width: 90px;
+    padding-left: 20px;
+    margin-top: 12px;
+    background-color: #3e85c7;
+    color: white;
+    font: 500 14px/24px "Microsoft YaHei";
+    border-radius: 5px 0 0 0;
+    position: relative;
+}
+.Address.jobInformation>p{
+    background-color: #eda424;
+}
+.jobInformation>p:before{
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    width: 13px;
+    height: 16px;
+    background-image: url(../image/3.png);
+}
+.jobInformation.job>p:before{
+    background-image: url(../image/2.png);
+}
+.jobInformation.plic>p:before{
+    background-image: url(../image/4.png);
+}
+.jobInformation-table{
+    padding: 10px 20px;
+    background-color: #f5f9fc;
+    border-top: 1px solid #c3cad0;
+    width:  793px;
+    table-layout: initial;
+}
+.Address.jobInformation-table{
+    padding: 10px 20px;
+    background-color: #fef9f3;
+}
+.Address.jobInformation-table:nth-of-type(n+2){
+    border-top: none;
+}
+.Address.jobInformation-table:nth-of-type(1){
+   padding-bottom: 0;
+}
+.jobInformation.nvolvedP{
+    padding-bottom: 40px;
+}
+.jobInformation-table.Address{
+    width: 793px;
+}
+.jobInformation-table-tr>td.longtr:nth-child(1){
+    width:90px;
+}
+.jobInformation-table-tr>.longTr:nth-of-type(2n+2){
+    line-height:  20px;
+}
+.jobInformation-table.Address{
+    position: relative;
+}
+.jobInformation-table.Address:before{
+     content: "1";
+     color: white;
+     font:700 12px/12px "Microsoft YaHei";
+     position: absolute;
+     text-align: center;
+     top: 18px;
+     left: 7px;
+     width: 12px;
+     height: 12px;
+     background-color: #eda424;
+     border-radius:50%;
+}
+.jobInformation-table.Address.nvolvedP:before{
+    background-color: #25ae94;
+}
+.jobInformation-table.Address.img:before{
+    content: "2";
+}
+.jobInformation-table-tr>td{
+    position: relative;
+    line-height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.jobInformation-table-tr>td:nth-child(1){
+    width: 62px;
+    font-weight: bold;
+}
+.jobInformation-table-tr>td:nth-child(2){
+    width: 183px;
+}
+.jobInformation-table-tr>td:nth-child(3){
+    width: 62px;
+    font-weight: bold;
+}
+.jobInformation-table-tr>td:nth-child(5){
+    width: 62px;
+    font-weight: bold;
+}
+
+/*--jobInformation结束--*/
+.Address.AddressW.jobInformation-table-tr>td:nth-of-type(2n+2) {
+    width: 160px;
+}
+.longTr{
+    text-align: right;
+}
+.jobInformation-table-tr.Address.AddressLeft>td:nth-of-type(2n+1){
+    text-align: right;
+}
+
+/*--nvolvedP开始--*/
+.nvolvedP .jobInformation-table-tr>td:nth-child(1){
+    width: 96px;
+}
+.nvolvedP .jobInformation-table-tr>td{
+   white-space: normal;
+   vertical-align:  top;
+   width: 119px;
+}
+.nvolvedP.jobInformation>p {
+    background-color: #25ae94;
+}
+.nvolvedP.jobInformation-table {
+    padding: 10px 20px;
+    background-color: #f5fbf9;
+}
+/*--nvolvedP结束--*/
